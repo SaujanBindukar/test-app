@@ -4,8 +4,6 @@ import 'package:test_app/app.dart';
 
 void main() {
   runApp(
-    const ProviderScope(
-      child: App(),
-    ),
+    const ProviderScope(child: App()),
   );
 }

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:test_app/core/utils/app_color_value.dart';
 
-///
+/// provider for accessing [ColorProvider]
 final colorProvider = StateNotifierProvider<ColorProvider, Color>((ref) {
   return ColorProvider();
 });
