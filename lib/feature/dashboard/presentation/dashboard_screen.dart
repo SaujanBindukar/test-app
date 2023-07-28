@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:test_app/feature/dashboard/application/color_provider.dart';
+import 'package:test_app/feature/dashboard/application/color_controller.dart';
 
 ///dashboard screen
 class DashboardScreen extends ConsumerStatefulWidget {

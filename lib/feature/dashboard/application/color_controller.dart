@@ -4,15 +4,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:test_app/core/utils/app_color_value.dart';
 
-/// provider for accessing [ColorProvider]
-final colorProvider = StateNotifierProvider<ColorProvider, Color>((ref) {
-  return ColorProvider();
+/// provider for accessing [ColorController]
+final colorProvider = StateNotifierProvider<ColorController, Color>((ref) {
+  return ColorController();
 });
 
 ///
-class ColorProvider extends StateNotifier<Color> {
+class ColorController extends StateNotifier<Color> {
   ///
-  ColorProvider() : super(const Color(AppColorValue.defaultColor));
+  ColorController() : super(const Color(AppColorValue.defaultColor));
 
   /// generate random color
   void generateColor() {
